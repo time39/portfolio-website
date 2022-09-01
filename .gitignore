@@ -11,6 +11,11 @@
 # production
 /build
 
+.idea
+package-lock.json
+package.json
+portfolio-website.iml
+
 # misc
 .DS_Store
 .env.local
