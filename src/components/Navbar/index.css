@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin-top: 0.3rem;
+}
+
+body {
+    margin: 0;
+}
+
+.nav{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 2rem;
+    font-family: Coolvetica;
+    font-size: 2rem;
+}
+
+.title {
+    font-size: 2rem;
+    font-family: "La Belle Aurore";
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    color: #2916F5;
+}
+
+.nav a.active{
+    color: #2916F5;
+}
+
+
+
+
