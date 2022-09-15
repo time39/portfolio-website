@@ -1,11 +1,15 @@
 import React from "react";
 import Navbar from "../Navbar";
+import './index.css'
 
 const Home = () => {
     return (
         <div>
             <Navbar/>
-            <h1>Hello World</h1>
+            <div className={"text"}>
+                <h1>Hello World</h1>
+            </div>
+
         </div>
 
     )

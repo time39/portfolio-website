@@ -13,14 +13,13 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
-    padding: 0 2rem;
+    padding: 10px 10%;
     font-family: Coolvetica;
     font-size: 2rem;
 }
 
 .title {
     font-size: 2rem;
-    font-family: "La Belle Aurore";
 }
 
 .nav ul {
@@ -34,14 +33,30 @@ body {
 .nav a {
     color: inherit;
     text-decoration: none;
+    position: relative;
 }
 
-.nav a:hover{
-    color: #2916F5;
+nav a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #2916F5;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
 }
 
-.nav a.active{
-    color: #2916F5;
+nav a:hover::after{
+    width: 100%;
+}
+
+/*.nav a:hover{*/
+/*    color: #2916F5;*/
+/*}*/
+
+.nav a.active::after{
+    width: 100%;
 }
 
 
