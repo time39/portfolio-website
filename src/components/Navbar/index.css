@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    margin-top: 0.3rem;
 }
 
 body {
@@ -9,11 +8,12 @@ body {
 
 .nav{
     color: black;
+    background-color: #F6F6F6;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
-    padding: 10px 10%;
+    padding: 16px 10%;
     font-family: Coolvetica;
     font-size: 2rem;
 }
@@ -51,13 +51,10 @@ nav a:hover::after{
     width: 100%;
 }
 
-/*.nav a:hover{*/
-/*    color: #2916F5;*/
-/*}*/
-
-.nav a.active::after{
-    width: 100%;
+.links:hover{
+  color: #444444;
 }
+
 
 
 

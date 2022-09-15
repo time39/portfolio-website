@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container img{
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.box{
+    text-align: center;
+    padding-top: 10vh;
+    margin: 4vh;
+    width: 300px;
+    height: 100vh;
+ }
