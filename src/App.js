@@ -2,8 +2,9 @@ import './App.css';
 import React from "react";
 import {Route, Routes} from 'react-router-dom'
 import Home from './components/Home'
-import About from "./components/About";
+import Skills from "./components/Skills";
 import {createMuiTheme} from "@material-ui/core";
+import About from "./components/About";
 
 function App() {
     let theme = React.useMemo(
@@ -30,12 +31,13 @@ function App() {
             }),
         [],
     );
-  return (
-    <Routes>
-      <Route path="/" element={<Home/>}/>
-      <Route path="/about" element={<About/>}/>
-    </Routes>
-  );
+    return (
+        <Routes>
+            <Route path="/" element={<Home/>}/>
+            <Route path="/skills" element={<Skills/>}/>
+            <Route path="/about" element={<About/>}/>
+        </Routes>
+    );
 }
 
 export default App;

@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container img{
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: revert;
+}
+.box{
+    border-radius: 20px;
+    background-color: #151515;
+    text-align: center;
+    padding: 1.2vh;
+    margin: 10vh;
+    height: 500px;
+    box-shadow: 3px 3px 18px #F6F6F6;
+}

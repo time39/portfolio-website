@@ -6,16 +6,15 @@ body {
     margin: 0;
 }
 
-.nav{
-    color: black;
-    background-color: #F6F6F6;
+.nav {
+    background-color: #212121;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
     padding: 16px 10%;
     font-family: Coolvetica;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .title {
@@ -36,7 +35,7 @@ body {
     position: relative;
 }
 
-nav a::after{
+nav a::after {
     content: '';
     width: 0%;
     height: 3px;
@@ -47,13 +46,10 @@ nav a::after{
     transition: 0.5s;
 }
 
-nav a:hover::after{
+nav a:hover::after {
     width: 100%;
 }
 
-.links:hover{
-  color: #444444;
-}
 
 
 
